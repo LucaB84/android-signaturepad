@@ -621,6 +621,6 @@ public class SignaturePad extends View {
     }
 
     public List<TimedPoint> getPoints() {
-        return mPoints;
+        return mPointsCache;
     }
 }
