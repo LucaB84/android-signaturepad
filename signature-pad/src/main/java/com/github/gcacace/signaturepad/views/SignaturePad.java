@@ -250,6 +250,10 @@ public class SignaturePad extends View {
             canvas.drawBitmap(mSignatureBitmap, 0, 0, mPaint);
         }
     }
+    
+    public List<TimedPoint> getPoints() {
+        return mPoints;
+    }
 
     public void setOnSignedListener(OnSignedListener listener) {
         mOnSignedListener = listener;
